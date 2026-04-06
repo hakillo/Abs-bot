@@ -19,4 +19,4 @@ ENV PORT=10000
 EXPOSE $PORT
 
 # Run both FastAPI and Streamlit (for demo purposes)
-CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port $PORT & streamlit run ui.py --server.port $PORT --server.address 0.0.0.0"]
+CMD ["sh", "-c", "uvicorn app:app --host 0.0.0.0 --port $PORT & streamlit run streamlit_app.py --server.port $PORT --server.address 0.0.0.0"]
