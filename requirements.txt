@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+streamlit
+requests
+langchain[embeddings]
+langchain_community
+chromadb
+python-docx
+duckduckgo-search
+pydantic
+aiohttp
+transformers
+torch
+sentence-transformers
+ollama
